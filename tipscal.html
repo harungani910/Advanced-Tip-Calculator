@@ -6,10 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
-    <h1 id="demo"></h1>
+    <h1 id="cal">Tip Calculator</h1>
+
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Percentage of Tip</th>
+                <th scope="col">Bill Range</th>
+                <th scope="col">Total Bill Paid</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">15%</th>
+                <td>
+                    <$50</td> <td id="less">
+                        <button onclick="check()">Calculatate</button>
+
+                </td>
+
+            </tr>
+            <tr>
+                <th scope="row">20%</th>
+                <td>
+                    $50-$200</td>
+                <td id="between">
+                    <button onclick="check()">Calculatate</button>
+                </td>
+
+            </tr>
+
+            <tr>
+                <th scope="row">10%</th>
+                <td>
+                    >$200</td>
+                <td id="more">
+                    <button onclick="check()">Calculatate</button>
+                </td>
+
+            </tr>
+
+        </tbody>
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

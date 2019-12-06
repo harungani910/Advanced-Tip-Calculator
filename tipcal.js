@@ -1,16 +1,21 @@
 var harun = {
     fullName: "Harun Abdi",
-    bills: [124, 48, 268, 180, 42],
+    bills: [42, 48, 124, 180, 268,],
+
+
 
     calctips: function () {
         this.tips = [];
         this.finalbills = [];
         for (var i = 0; i < this.bills.length; i++) {
             var percentage;
+
+
             var bill = this.bills[i];
 
             if (bill < 50) {
                 percentage = 0.20;
+
             }
 
 
@@ -26,13 +31,19 @@ var harun = {
 
             this.tips[i] = bill * percentage;
             this.finalbills[i] = bill * percentage + bill;
+
         }
 
     }
 }
 
 harun.calctips();
-console.log(harun);
-var element = document.getElementById("demo");
 
-element.harun;
+
+
+function check() {
+    document.getElementById("less").innerHTML = "$ " + harun.finalbills[0];
+    document.getElementById("between").innerHTML = "$ " + harun.finalbills[1];
+    document.getElementById("more").innerHTML = "$ " + harun.finalbills[2];
+
+}
