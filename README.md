@@ -1,7 +1,5 @@
 # Advanced-Tip-Calculator
 
-Click here to  see the Tip Calculator in Action.
-file:///C:/Users/khadi/Advanced-Tip-Calculator/tipscal.html
 
 John and his family went to 5 different restaurants. the bills were $124, $48, $268, $180 and $42.
 John likes to tip 20% of the bill when the bill is less than $50, 15% when the bill is between $50 and $200 and 10% if the bill is more than $200.
